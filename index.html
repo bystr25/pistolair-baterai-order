@@ -121,7 +121,7 @@
             document.getElementById('total').textContent = totalHarga.toLocaleString();
 
             // Update link tombol order untuk WhatsApp
-            const waText = `Saya mau order\nNama Produk: ROBOT TRANSFORMER\nJumlah: ${quantity}\nTotal Harga: Rp${totalHarga.toLocaleString()}`;
+            const waText = `Saya mau order\nNama Produk: PISTOL AIR+BATERAI\nJumlah: ${quantity}\nTotal Harga: Rp${totalHarga.toLocaleString()}`;
             const waLink = `https://wa.me/6288291837303?text=${encodeURIComponent(waText)}`;
             document.getElementById('orderButton').setAttribute('href', waLink);
         }
